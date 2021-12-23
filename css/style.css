@@ -134,14 +134,11 @@ body {
 
 .contact {
   list-style: none;
-  /* font-weight: 500; */
   font-size: 14px;
   line-height: 1.14;
   display: flex;
   margin-left: auto;
   align-items: center;
-
-  /* display: inline-flex; */
 }
 .contact .link {
   color: var(--text-main-color);
