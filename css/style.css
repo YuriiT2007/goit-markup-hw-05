@@ -329,11 +329,30 @@ body {
 .threefoto {
   margin-right: 30px;
   width: calc(100% / 3);
-  /* align-items: center; */
-  /* width: calc(100%/3); */
 }
 .threefoto:last-child {
   margin-right: 0px;
+}
+.adigeja {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  position: relative;
+  transform: translateY(-100%);
+}
+.chaildplas {
+  position: absolute;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 83px;
+  text-align: center;
+  line-height: 16.41px;
+  text-transform: uppercase;
+  color: var(--text-bg-dop);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  transform: translateY(0);
 }
 /*----------what-we-are-doing and-------*/
 /*----------our-team-----------*/
