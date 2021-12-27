@@ -80,7 +80,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .logoand:hover {
@@ -251,7 +251,7 @@ body {
   padding: 10px 32px 10px 32px;
   margin-top: 40px;
   text-align: center;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .ordservis:hover,
@@ -281,7 +281,7 @@ body {
   padding: 15px;
   background-color: white;
   border: 2px solid transparent;
-  transition: transform 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .closebat {
   position: absolute;
@@ -474,7 +474,7 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .icoma:hover,
@@ -526,8 +526,7 @@ body {
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--hov-foc-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inckli-a:hover,
 .inckli-a:focus {
@@ -573,7 +572,7 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .foot-logoand:hover,
@@ -600,7 +599,7 @@ footer {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 9px;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .foot-mail-com:hover,
@@ -613,7 +612,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .foot-tel-com:hover,
@@ -666,7 +665,7 @@ footer {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 
@@ -690,7 +689,7 @@ footer {
     } */
 .section-but {
   padding-top: 100px;
-  padding-bottom: 94px;
+  padding-bottom: 0;
   border-top: 1px solid #ececec;
 }
 .button-tipe {
@@ -728,7 +727,7 @@ footer {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 .but:hover,
@@ -755,7 +754,7 @@ footer {
 }
 .all-info {
   text-decoration: none;
-  transition: color 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--hov-foc-color);
 }
 
@@ -776,7 +775,7 @@ footer {
   content: "";
   position: absolute;
   transform: translateY(100%);
-  transition: transform 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 0;
   left: 0;
   width: 100%;
@@ -790,8 +789,17 @@ footer {
 }
 .all-info:hover .overlay {
   transform: translateY(0);
-  /* top: 0;
-  left: 0; */
+}
+.textloren {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 img {
   display: block;
@@ -826,48 +834,3 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-
-/*-------portfolio work---------*/
-/*-------test---------*/
-/* .box{
-        border: 5px solid black;
-    padding: 20px;
-    margin: 20px;
-    outline: 5px solid rosybrown;
-    margin-bottom:50px;
-    } */
-
-/* .butyn{
-    display: inline-block;
-    padding:20px 40px;
-    background-color: sandybrown;
-    height: 20px;
-    border: 3px solid green;
-    }
-    .butyn:hover,:focus{
-    background: honeydew;
-    }
-    .but-g{
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        background-color: hotpink;
-        vertical-align: middle;
-        vertical-align:bottom;
-    } */
-
-/*----jhgklhjg---------*/
-/* /* .jhkj{
-        margin-bottom: 50;
-        background-color: greenyellow;
-        outline: 2px solid greenyellow;
-        margin-top: 0; */
-
-/* html{
-            box-sizing: border-box;
-            vertical-align: middle;
-        }
-        *, *::before, :after{
-            box-sizing: inherit;
-            
-        } */
